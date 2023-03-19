@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
+	<SoundBanks>
+		<SoundBank Id="3991942870" Type="User" GUID="{0005DE95-2966-4016-AD9D-0C97920D0F48}" Language="SFX" Hash="{89AF1267-F353-1EE5-76D8-6693BBEC7AF4}">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<Media>
+				<File Id="17337133" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>melo8a idle A.wav</ShortName>
+					<CachePath>SFX/melo8a idle A_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="62260837" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>melo harp idle A.wav</ShortName>
+					<CachePath>SFX/melo harp idle A_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="106019186" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>base idle A.wav</ShortName>
+					<CachePath>SFX/base idle A_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="549658397" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>combat alpha.wav</ShortName>
+					<CachePath>SFX/combat alpha_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="782574751" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>harp idle A.wav</ShortName>
+					<CachePath>SFX/harp idle A_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="802542294" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>contramelo idle A.wav</ShortName>
+					<CachePath>SFX/contramelo idle A_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="836905274" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ocarina idle A.wav</ShortName>
+					<CachePath>SFX/ocarina idle A_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="839700140" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>melo idle B.wav</ShortName>
+					<CachePath>SFX/melo idle B_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="875980002" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>harp idle B.wav</ShortName>
+					<CachePath>SFX/harp idle B_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="888144262" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>base idle B.wav</ShortName>
+					<CachePath>SFX/base idle B_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="985700212" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>melo idle A.wav</ShortName>
+					<CachePath>SFX/melo idle A_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="1048191887" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>melo harp idle B.wav</ShortName>
+					<CachePath>SFX/melo harp idle B_D79FB2B7.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Play_Music" GUID="{9EF63A32-59B8-4B42-8B9A-CEB0269205DC}" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="762757699" Id="2764240573" GUID="{8A557A46-33B0-4B23-A6F5-0C0244E73674}"/>
+							<MediaRefs>
+								<MediaRef Id="549658397"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="762757699" Id="1874288895" GUID="{7683D57F-0857-4534-9BED-7134BAA62CC9}"/>
+							<MediaRefs>
+								<MediaRef Id="17337133"/>
+								<MediaRef Id="62260837"/>
+								<MediaRef Id="106019186"/>
+								<MediaRef Id="782574751"/>
+								<MediaRef Id="802542294"/>
+								<MediaRef Id="836905274"/>
+								<MediaRef Id="839700140"/>
+								<MediaRef Id="875980002"/>
+								<MediaRef Id="888144262"/>
+								<MediaRef Id="985700212"/>
+								<MediaRef Id="1048191887"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="762757699" Id="748895195" GUID="{0D33305A-4736-4A98-83C6-80D7C73FF208}"/>
+							<MediaRefs>
+								<MediaRef Id="17337133"/>
+								<MediaRef Id="62260837"/>
+								<MediaRef Id="106019186"/>
+								<MediaRef Id="782574751"/>
+								<MediaRef Id="802542294"/>
+								<MediaRef Id="836905274"/>
+								<MediaRef Id="839700140"/>
+								<MediaRef Id="875980002"/>
+								<MediaRef Id="888144262"/>
+								<MediaRef Id="985700212"/>
+								<MediaRef Id="1048191887"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="762757699" Id="0" GUID="{50507791-39DF-42C5-A797-04B3E258B336}"/>
+							<MediaRefs>
+								<MediaRef Id="17337133"/>
+								<MediaRef Id="62260837"/>
+								<MediaRef Id="106019186"/>
+								<MediaRef Id="782574751"/>
+								<MediaRef Id="802542294"/>
+								<MediaRef Id="836905274"/>
+								<MediaRef Id="839700140"/>
+								<MediaRef Id="875980002"/>
+								<MediaRef Id="888144262"/>
+								<MediaRef Id="985700212"/>
+								<MediaRef Id="1048191887"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<StateGroups>
+				<StateGroup Id="762757699" Name="gameplay_state" ObjectPath="\States\Default Work Unit\gameplay_state" GUID="{50507791-39DF-42C5-A797-04B3E258B336}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\gameplay_state\None" GUID="{0D33305A-4736-4A98-83C6-80D7C73FF208}"/>
+						<State Id="1874288895" Name="idle" ObjectPath="\States\Default Work Unit\gameplay_state\idle" GUID="{7683D57F-0857-4534-9BED-7134BAA62CC9}"/>
+						<State Id="2764240573" Name="combat" ObjectPath="\States\Default Work Unit\gameplay_state\combat" GUID="{8A557A46-33B0-4B23-A6F5-0C0244E73674}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{ADB1B5F2-ABC0-9D17-D192-9CC57A696685}</FileHash>
+</SoundBanksInfo>

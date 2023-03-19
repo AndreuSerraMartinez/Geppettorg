@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{3032B914-E7F6-DC3B-3487-6613BD177CDB}">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Audio Devices\Default Work Unit\No_Output" GUID="{498C8DCC-79C5-455D-8123-5E67B7B2ABBD}" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" ObjectPath="\Audio Devices\Default Work Unit\System" GUID="{9D40EA24-EBD3-4E1D-85A0-2D5CFE779896}" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+			</Busses>
+			<StateGroups>
+				<StateGroup Id="762757699" Name="gameplay_state" ObjectPath="\States\Default Work Unit\gameplay_state" GUID="{50507791-39DF-42C5-A797-04B3E258B336}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\gameplay_state\None" GUID="{0D33305A-4736-4A98-83C6-80D7C73FF208}"/>
+						<State Id="1874288895" Name="idle" ObjectPath="\States\Default Work Unit\gameplay_state\idle" GUID="{7683D57F-0857-4534-9BED-7134BAA62CC9}"/>
+						<State Id="2764240573" Name="combat" ObjectPath="\States\Default Work Unit\gameplay_state\combat" GUID="{8A557A46-33B0-4B23-A6F5-0C0244E73674}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{40C0D8D6-171A-AD54-E519-F7A5D4B31568}</FileHash>
+</SoundBanksInfo>
