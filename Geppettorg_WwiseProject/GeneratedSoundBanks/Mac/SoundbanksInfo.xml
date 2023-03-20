@@ -32,7 +32,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="3991942870" Type="User" GUID="{0005DE95-2966-4016-AD9D-0C97920D0F48}" Language="SFX" Hash="{89AF1267-F353-1EE5-76D8-6693BBEC7AF4}">
+		<SoundBank Id="3991942870" Type="User" GUID="{0005DE95-2966-4016-AD9D-0C97920D0F48}" Language="SFX" Hash="{936C35A5-F55A-A596-C9AE-45456B8AC320}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
@@ -40,6 +40,10 @@
 				<File Id="17337133" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>melo8a idle A.wav</ShortName>
 					<CachePath>SFX/melo8a idle A_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="61031321" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>combat to idle.wav</ShortName>
+					<CachePath>SFX/combat to idle_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="62260837" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>melo harp idle A.wav</ShortName>
@@ -52,6 +56,10 @@
 				<File Id="549658397" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>combat alpha.wav</ShortName>
 					<CachePath>SFX/combat alpha_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="623130742" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>idle to combat .wav</ShortName>
+					<CachePath>SFX/idle to combat _D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="782574751" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>harp idle A.wav</ShortName>
@@ -88,10 +96,15 @@
 			</Media>
 			<Events>
 				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Play_Music" GUID="{9EF63A32-59B8-4B42-8B9A-CEB0269205DC}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="61031321"/>
+						<MediaRef Id="623130742"/>
+					</MediaRefs>
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="State" GroupId="762757699" Id="2764240573" GUID="{8A557A46-33B0-4B23-A6F5-0C0244E73674}"/>
 							<MediaRefs>
+								<MediaRef Id="61031321"/>
 								<MediaRef Id="549658397"/>
 							</MediaRefs>
 						</SwitchContainer>
@@ -101,6 +114,7 @@
 								<MediaRef Id="17337133"/>
 								<MediaRef Id="62260837"/>
 								<MediaRef Id="106019186"/>
+								<MediaRef Id="623130742"/>
 								<MediaRef Id="782574751"/>
 								<MediaRef Id="802542294"/>
 								<MediaRef Id="836905274"/>
@@ -117,6 +131,7 @@
 								<MediaRef Id="17337133"/>
 								<MediaRef Id="62260837"/>
 								<MediaRef Id="106019186"/>
+								<MediaRef Id="623130742"/>
 								<MediaRef Id="782574751"/>
 								<MediaRef Id="802542294"/>
 								<MediaRef Id="836905274"/>
@@ -133,6 +148,7 @@
 								<MediaRef Id="17337133"/>
 								<MediaRef Id="62260837"/>
 								<MediaRef Id="106019186"/>
+								<MediaRef Id="623130742"/>
 								<MediaRef Id="782574751"/>
 								<MediaRef Id="802542294"/>
 								<MediaRef Id="836905274"/>
@@ -157,5 +173,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{CD4242D7-FAD9-1766-3A49-01A339B07A7B}</FileHash>
+	<FileHash>{217EDEA7-7F70-9294-EE32-D9103930A933}</FileHash>
 </SoundBanksInfo>

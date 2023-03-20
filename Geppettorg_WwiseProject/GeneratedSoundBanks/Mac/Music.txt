@@ -11,9 +11,11 @@ State	ID	Name	State Group			Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	17337133	contramelo idle A	Y:\ENTI\3r ENTI\TFG\Geppettorg\Geppettorg_WwiseProject\.cache\Mac\SFX\melo8a idle A_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\gameplay\a_tutorial\idle\idle A\contramelo idle A		6380564
+	61031321	combat to idle	Y:\ENTI\3r ENTI\TFG\Geppettorg\Geppettorg_WwiseProject\.cache\Mac\SFX\combat to idle_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\gameplay\a_tutorial\combat\combat to idle\combat to idle		1084472
 	62260837	melo idle A	Y:\ENTI\3r ENTI\TFG\Geppettorg\Geppettorg_WwiseProject\.cache\Mac\SFX\melo harp idle A_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\gameplay\a_tutorial\idle\idle A\melo idle A		6380500
 	106019186	base idle A	Y:\ENTI\3r ENTI\TFG\Geppettorg\Geppettorg_WwiseProject\.cache\Mac\SFX\base idle A_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\gameplay\a_tutorial\idle\idle A\base idle A		12051944
 	549658397	combat alpha	Y:\ENTI\3r ENTI\TFG\Geppettorg\Geppettorg_WwiseProject\.cache\Mac\SFX\combat alpha_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\gameplay\a_tutorial\combat\base combat\combat alpha		15721648
+	623130742	idle to combat	Y:\ENTI\3r ENTI\TFG\Geppettorg\Geppettorg_WwiseProject\.cache\Mac\SFX\idle to combat _D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\gameplay\a_tutorial\idle\idle to combat\idle to combat		844796
 	782574751	harp idle A	Y:\ENTI\3r ENTI\TFG\Geppettorg\Geppettorg_WwiseProject\.cache\Mac\SFX\harp idle A_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\gameplay\a_tutorial\idle\idle A\harp idle A		6380564
 	802542294	contramelo idle A	Y:\ENTI\3r ENTI\TFG\Geppettorg\Geppettorg_WwiseProject\.cache\Mac\SFX\contramelo idle A_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\gameplay\a_tutorial\idle\idle A\contramelo idle A		6380564
 	836905274	ocarina idle A	Y:\ENTI\3r ENTI\TFG\Geppettorg\Geppettorg_WwiseProject\.cache\Mac\SFX\ocarina idle A_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\gameplay\a_tutorial\idle\idle A\ocarina idle A		6380564

@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{0005DE95-2966-4016-AD9D-0C97920D0F48}",
     "Language": "SFX",
-    "Hash": "{89AF1267-F353-1EE5-76D8-6693BBEC7AF4}",
+    "Hash": "{936C35A5-F55A-A596-C9AE-45456B8AC320}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Music",
     "ShortName": "Music",
     "Path": "Music.bnk",
@@ -22,6 +22,14 @@
       "Location": "Memory",
       "ShortName": "melo8a idle A.wav",
       "CachePath": "SFX/melo8a idle A_D79FB2B7.wem"
+     },
+     {
+      "Id": "61031321",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "combat to idle.wav",
+      "CachePath": "SFX/combat to idle_D79FB2B7.wem"
      },
      {
       "Id": "62260837",
@@ -46,6 +54,14 @@
       "Location": "Memory",
       "ShortName": "combat alpha.wav",
       "CachePath": "SFX/combat alpha_D79FB2B7.wem"
+     },
+     {
+      "Id": "623130742",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "idle to combat .wav",
+      "CachePath": "SFX/idle to combat _D79FB2B7.wem"
      },
      {
       "Id": "782574751",
@@ -119,6 +135,14 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Music",
       "GUID": "{9EF63A32-59B8-4B42-8B9A-CEB0269205DC}",
       "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "61031321"
+       },
+       {
+        "Id": "623130742"
+       }
+      ],
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -128,6 +152,9 @@
          "GUID": "{8A557A46-33B0-4B23-A6F5-0C0244E73674}"
         },
         "MediaRefs": [
+         {
+          "Id": "61031321"
+         },
          {
           "Id": "549658397"
          }
@@ -149,6 +176,9 @@
          },
          {
           "Id": "106019186"
+         },
+         {
+          "Id": "623130742"
          },
          {
           "Id": "782574751"
@@ -194,6 +224,9 @@
           "Id": "106019186"
          },
          {
+          "Id": "623130742"
+         },
+         {
           "Id": "782574751"
          },
          {
@@ -235,6 +268,9 @@
          },
          {
           "Id": "106019186"
+         },
+         {
+          "Id": "623130742"
          },
          {
           "Id": "782574751"
@@ -295,6 +331,6 @@
     ]
    }
   ],
-  "FileHash": "{DF030B98-4C14-B547-5E0B-53881E5003C2}"
+  "FileHash": "{887E1415-C4A9-2D0D-58C4-2C4FD3202BA3}"
  }
 }
